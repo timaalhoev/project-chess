@@ -1,0 +1,18 @@
+@import "../../styles/modules/variables.scss";
+
+.header {
+	max-width: $mw; 
+	margin: 0 auto;
+
+	&__logo {
+		padding-top: 26px;
+	}
+
+	&__container {
+		padding-top: 30px;
+	}
+
+	&__link-info {
+		color: #FFFFFF;
+	}
+}
