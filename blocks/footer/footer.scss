@@ -1,0 +1,48 @@
+.footer {
+    background-color: #5036E6;
+    padding-top: 80px;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__logo {
+        max-width: 38px;
+        padding-bottom: 60px;
+    }
+    &__link {
+        width: 218px;
+        background-color: #009465;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 8px;
+        padding: 14px 28px 16px;
+        cursor: pointer;
+
+        &:hover {
+			background-color: #066C4C;
+		}
+    }
+    &__link-text {
+        margin: 0;
+        text-align: center;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    &__info {
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 60px;
+        margin: 0;
+    }
+    &__copyright {
+        color: #8E9199;
+        font-size: 15,1px;
+        line-height: 20px;
+        padding-top: 20px;
+        margin: 0;
+        padding-bottom: 80px;
+    }
+}

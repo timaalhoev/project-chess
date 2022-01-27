@@ -3,6 +3,9 @@
 .header {
 	max-width: $mw; 
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
 
 	&__logo {
 		padding-top: 26px;
@@ -14,5 +17,27 @@
 
 	&__link-info {
 		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	&__link_registration {
+		margin-left: 50px;
+		background-color:	#009465;
+		color: #FFFFFF;
+		border: none;
+		border-radius: 8px;
+		padding: 14px 28px 16px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #066C4C;
+		}
+		
+	}
+
+	&__link-text {
+		font-size: 15px;
+		line-height: 18px;
+		margin: 0;
 	}
 }

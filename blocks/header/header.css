@@ -1,6 +1,8 @@
 .header {
   max-width: 1120px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .header__logo {
   padding-top: 26px;
@@ -10,4 +12,22 @@
 }
 .header__link-info {
   color: #FFFFFF;
+  text-decoration: none;
+}
+.header__link_registration {
+  margin-left: 50px;
+  background-color: #009465;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px 16px;
+  cursor: pointer;
+}
+.header__link_registration:hover {
+  background-color: #066C4C;
+}
+.header__link-text {
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
 }/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,61 @@
+.community {
+  background-color: #5036E6;
+  color: #FFFFFF;
+}
+.community__title {
+  margin: 0;
+  padding-top: 80px;
+  font-size: 70px;
+  line-height: 63px;
+}
+.community__text {
+  max-width: 500px;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.community__container-cards {
+  padding-top: 110px;
+  display: flex;
+  gap: 80px;
+}
+.community__player-name {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 28, 6px;
+}
+.community__player-info {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.community__contact {
+  padding-top: 80px;
+  display: flex;
+  padding-bottom: 60px;
+}
+.community__image {
+  padding-top: 60px;
+}
+.community__text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+.community__title-recruiting {
+  margin: 0;
+  max-width: 520px;
+  padding-bottom: 40px;
+  font-size: 70px;
+  line-height: 63px;
+}
+.community__info-contact {
+  margin: 0;
+  max-width: 520px;
+  font-size: 20px;
+  line-height: 26px;
+}/*# sourceMappingURL=community.css.map */
