@@ -5,6 +5,13 @@
   background-position: calc(100% + 160px);
   margin-right: 0;
 }
+@media screen and (max-width: 420px) {
+  .main-screen {
+    padding-top: 50px;
+    background-image: url(../../images/Group_screen.png);
+    background-position: right;
+  }
+}
 .main-screen__club {
   max-width: 84px;
   color: #FFFFFF;
@@ -17,6 +24,14 @@
   font-size: 16px;
   line-height: 14px;
 }
+@media screen and (max-width: 420px) {
+  .main-screen__club {
+    width: 63px;
+    font-size: 12px;
+    line-height: 10, 8px;
+    padding: 14.5px 14.5px 17px;
+  }
+}
 .main-screen__title {
   max-width: 500px;
   padding-top: 70px;
@@ -24,6 +39,14 @@
   font-size: 70px;
   line-height: 90%;
   margin: 0;
+}
+@media screen and (max-width: 420px) {
+  .main-screen__title {
+    padding-top: 60px;
+    max-width: 280px;
+    font-size: 40px;
+    line-height: 36px;
+  }
 }
 .main-screen__info {
   max-width: 500px;
@@ -33,7 +56,29 @@
   line-height: 130%;
   margin: 0;
 }
+@media screen and (max-width: 420px) {
+  .main-screen__info {
+    max-width: 280px;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 15, 6px;
+    width: 280px;
+  }
+}
 .main-screen__image {
   padding-top: 182px;
   padding-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .main-screen__image {
+    padding-top: 212px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main-screen__image {
+    width: 280px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+  }
 }/*# sourceMappingURL=main-screen.css.map */

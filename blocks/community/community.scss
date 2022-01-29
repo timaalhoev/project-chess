@@ -8,6 +8,15 @@
        padding-top: 80px;
        font-size: 70px;
        line-height: 63px;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 50px;
+    }
+    @media screen and (max-width: 420px) {
+        padding-top: 20px;
+        font-size: 40px;
+        line-height: 36px;
+    }
    }
    &__text {
        max-width: 500px;
@@ -15,28 +24,60 @@
        padding-top: 40px;
        font-size: 20px;
        line-height: 26px;
+
+       @media screen and (max-width: 420px) {
+        max-width: 280px;
+        font-size: 12px;
+        line-height: 15,6px;
+        padding-top: 20px;
+    }
    }
    &__container-cards {
        padding-top: 110px;
        display: flex;
        gap: 80px;
+
+       @media screen and (max-width: 768px) {
+        padding-top: 140px;
+        gap: 28px;
+       }
+
+       @media screen and (max-width: 420px) {
+        padding-top: 60px;
+       }
    }
    &__player-name {
        margin: 0;
        padding-top: 30px;
        font-size: 22px;
        line-height: 28,6px;
+
+       @media screen and (max-width: 420px) {
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 23,4px;
+       }
    }
    &__player-info {
        margin: 0;
        padding-top: 10px;
        font-size: 20px;
        line-height: 26px;
+
+       @media screen and (max-width: 420px) {
+        padding-top: 5px;
+        font-size: 12px;
+        line-height: 15,6px;
+       }
    }
    &__contact {
        padding-top: 80px;
        display: flex;
        padding-bottom: 60px;
+
+       @media screen and (max-width: 420px) {
+        
+       }
    }
    &__image {
        padding-top: 60px;
