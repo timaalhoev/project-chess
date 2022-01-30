@@ -49,6 +49,7 @@
 @media screen and (max-width: 420px) {
   .community__container-cards {
     padding-top: 60px;
+    text-align: center;
   }
 }
 .community__player-name {
@@ -77,30 +78,6 @@
     line-height: 15, 6px;
   }
 }
-.community__contact {
-  padding-top: 80px;
-  display: flex;
-  padding-bottom: 60px;
-}
 .community__image {
   padding-top: 60px;
-}
-.community__text-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-left: 100px;
-}
-.community__title-recruiting {
-  margin: 0;
-  max-width: 520px;
-  padding-bottom: 40px;
-  font-size: 70px;
-  line-height: 63px;
-}
-.community__info-contact {
-  margin: 0;
-  max-width: 520px;
-  font-size: 20px;
-  line-height: 26px;
 }/*# sourceMappingURL=community.css.map */

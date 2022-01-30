@@ -1,18 +1,7 @@
-.header {
-  max-width: 1120px;
-  margin: 0 auto;
+.header__content {
   display: flex;
   justify-content: space-between;
-}
-@media screen and (max-width: 768px) {
-  .header {
-    max-width: 668px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .header {
-    max-width: 280px;
-  }
+  align-items: center;
 }
 .header__logo {
   padding-top: 26px;

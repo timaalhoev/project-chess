@@ -4,5 +4,9 @@
 @import '../blocks/content/content.css';
 @import '../blocks/main-screen/main-screen.css';
 @import '../blocks/community/community.css';
+@import '../blocks/hiring/hiring.css';
 @import '../blocks/events/events.css';
-@import '../blocks/footer/footer.css';/*# sourceMappingURL=index.css.map */
+@import '../blocks/footer/footer.css';
+body {
+  font-family: "Noto Sans", sans-serif;
+}/*# sourceMappingURL=index.css.map */

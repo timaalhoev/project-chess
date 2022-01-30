@@ -1,22 +1,22 @@
 @import "../../styles/modules/variables.scss";
 .community {
-   background-color: #5036E6;
-   color: $col;
+    background-color: #5036E6;
+    color: $white;
 
-   &__title {
-       margin: 0;
-       padding-top: 80px;
-       font-size: 70px;
-       line-height: 63px;
+    &__title {
+        margin: 0;
+        padding-top: 80px;
+        font-size: 70px;
+        line-height: 63px;
 
-    @media screen and (max-width: 768px) {
-        padding-top: 50px;
-    }
-    @media screen and (max-width: 420px) {
-        padding-top: 20px;
-        font-size: 40px;
-        line-height: 36px;
-    }
+        @media screen and (max-width: 768px) {
+            padding-top: 50px;
+        }
+        @media screen and (max-width: 420px) {
+            padding-top: 20px;
+            font-size: 40px;
+            line-height: 36px;
+        }
    }
    &__text {
        max-width: 500px;
@@ -44,6 +44,7 @@
 
        @media screen and (max-width: 420px) {
         padding-top: 60px;
+        text-align: center;
        }
    }
    &__player-name {
@@ -70,35 +71,7 @@
         line-height: 15,6px;
        }
    }
-   &__contact {
-       padding-top: 80px;
-       display: flex;
-       padding-bottom: 60px;
-
-       @media screen and (max-width: 420px) {
-        
-       }
-   }
    &__image {
        padding-top: 60px;
    }
-   &__text-container {
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       padding-left: 100px;
-   }
-   &__title-recruiting {
-       margin: 0;
-       max-width: 520px;
-       padding-bottom: 40px;
-       font-size: 70px;
-       line-height: 63px;
-    }
-    &__info-contact {
-        margin: 0;
-        max-width: 520px;
-        font-size: 20px;
-        line-height: 26px;
-    }
 }

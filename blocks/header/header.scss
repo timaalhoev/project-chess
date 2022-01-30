@@ -1,17 +1,11 @@
 @import "../../styles/modules/variables.scss";
 
 .header {
-	max-width: $mw; 
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	
-	@media screen and (max-width: 768px) {
-		max-width: 668px;
-	  }
-	  @media screen and (max-width: 420px) {
-		max-width: 280px;
-	  }
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 
 	&__logo {
 		padding-top: 26px;
@@ -19,7 +13,7 @@
 		@media screen and (max-width: 420px) {
 			padding-top: 16px;
 			width: 26px;
-		  }
+		}
 	}
 
 	&__container {
@@ -27,7 +21,7 @@
 
 		@media screen and (max-width: 420px) {
 			padding-top: 19px;
-		  }
+		}
 	}
 	
 	&__link-info {

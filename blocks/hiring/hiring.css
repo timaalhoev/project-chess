@@ -1,0 +1,40 @@
+.hiring {
+  position: relative;
+  background-color: #5036E6;
+  color: #FFFFFF;
+  padding-top: 170px;
+  display: flex;
+  padding-bottom: 170px;
+  padding-left: 50%;
+}
+.hiring::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  width: 660px;
+  height: 440px;
+  background-image: url("../../images/circles_team.png");
+  background-repeat: no-repeat;
+}
+.hiring__text-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+  z-index: 1;
+}
+.hiring__title-recruiting {
+  margin: 0;
+  max-width: 520px;
+  padding-bottom: 40px;
+  font-size: 70px;
+  line-height: 63px;
+}
+.hiring__info-contact {
+  margin: 0;
+  max-width: 520px;
+  font-size: 20px;
+  line-height: 26px;
+}/*# sourceMappingURL=hiring.css.map */
