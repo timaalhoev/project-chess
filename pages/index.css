@@ -7,6 +7,8 @@
 @import '../blocks/hiring/hiring.css';
 @import '../blocks/events/events.css';
 @import '../blocks/footer/footer.css';
+@import '../blocks/registration/registration.css';
+@import '../blocks/nav/nav.css';
 body {
   font-family: "Noto Sans", sans-serif;
 }/*# sourceMappingURL=index.css.map */

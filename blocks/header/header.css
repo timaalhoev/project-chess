@@ -68,14 +68,17 @@
 .header__link_registration:hover {
   background-color: #066C4C;
 }
-.header__link-text {
+.header__link {
   font-size: 15px;
   line-height: 18px;
-  margin: 0;
 }
 @media screen and (max-width: 768px) {
-  .header__link-text {
+  .header__link {
     font-size: 13px;
-    line-height: 18px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header__link {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=header.css.map */

@@ -1,5 +1,6 @@
 .hiring {
   position: relative;
+  overflow: hidden;
   background-color: #5036E6;
   color: #FFFFFF;
   padding-top: 170px;
@@ -7,15 +8,55 @@
   padding-bottom: 170px;
   padding-left: 50%;
 }
+@media screen and (max-width: 768px) {
+  .hiring {
+    padding-left: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hiring {
+    padding-left: 0;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    justify-content: center;
+  }
+}
 .hiring::before {
   content: "";
   position: absolute;
-  left: 0;
   bottom: 60px;
+  right: 72%;
   width: 660px;
   height: 440px;
   background-image: url("../../images/circles_team.png");
   background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 1250px) {
+  .hiring::before {
+    right: calc(100% - 660px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .hiring::before {
+    background-image: url("../../images/circles_team_mobile.png");
+    width: 360px;
+    height: 360px;
+    bottom: 50px;
+    right: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hiring::before {
+    width: 280px;
+    height: 280px;
+    bottom: -140px;
+    left: 50%;
+    margin-left: -140px;
+  }
 }
 .hiring__text-container {
   position: relative;
@@ -25,6 +66,16 @@
   padding-left: 100px;
   z-index: 1;
 }
+@media screen and (max-width: 1250px) {
+  .hiring__text-container {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hiring__text-container {
+    padding-left: 20px;
+  }
+}
 .hiring__title-recruiting {
   margin: 0;
   max-width: 520px;
@@ -32,9 +83,34 @@
   font-size: 70px;
   line-height: 63px;
 }
+@media screen and (max-width: 768px) {
+  .hiring__title-recruiting {
+    max-width: 478px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hiring__title-recruiting {
+    max-width: 280px;
+    font-size: 40px;
+    line-height: 36px;
+    padding-bottom: 20px;
+  }
+}
 .hiring__info-contact {
   margin: 0;
   max-width: 520px;
   font-size: 20px;
   line-height: 26px;
+}
+@media screen and (max-width: 768px) {
+  .hiring__info-contact {
+    max-width: 478px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hiring__info-contact {
+    max-width: 280px;
+    font-size: 12px;
+    line-height: 15.6px;
+  }
 }/*# sourceMappingURL=hiring.css.map */

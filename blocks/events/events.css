@@ -55,10 +55,29 @@
     gap: 0px;
   }
 }
+@media screen and (max-width: 420px) {
+  .events__image {
+    max-width: 280px;
+  }
+}
 .events__container-images {
+  display: flex;
+  justify-content: flex-end;
   background-image: url(../../images/Group_339.png);
-  background-position: left;
+  background-position: left bottom;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .events__container-images {
+    background-image: url(../../images/Group_3399.png);
+  }
+}
+@media screen and (max-width: 420px) {
+  .events__container-images {
+    background-image: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .events__picture {
   padding-top: 110px;
@@ -68,11 +87,14 @@
 @media screen and (max-width: 768px) {
   .events__picture {
     padding-top: 140px;
+    padding-right: 50px;
   }
 }
 @media screen and (max-width: 420px) {
   .events__picture {
     padding-top: 98px;
     padding-bottom: 20px;
+    padding-right: 0;
+    width: 100%;
   }
 }/*# sourceMappingURL=events.css.map */

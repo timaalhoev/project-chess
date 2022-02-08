@@ -1,77 +1,95 @@
 .events {
-   color: #FFFFFF;
-   padding-top: 80px;
+  color: #FFFFFF;
+  padding-top: 80px;
 
-   @media screen and (max-width: 768px) {
-        padding-top: 50px;
-    }
+  @media screen and (max-width: 768px) {
+    padding-top: 50px;
+  }
 
-    @media screen and (max-width: 420px) {
-        padding-top: 20px;
-    }
+  @media screen and (max-width: 420px) {
+    padding-top: 20px;
+  }
 
-   &__title {
+  &__title {
     margin: 0;
     padding-bottom: 40px;
     font-size: 70px;
     line-height: 63px;
 
     @media screen and (max-width: 420px) {
-        padding-bottom: 20px;
-        font-size: 40px;
-        line-height: 36px;
+      padding-bottom: 20px;
+      font-size: 40px;
+      line-height: 36px;
     }
-
    }
 
-   &__info {
-       margin: 0;
-       max-width: 500px;
-       font-size: 20px;
-       line-height: 26px;
-
-       @media screen and (max-width: 420px) {
-        max-width: 280px;
-        font-size: 12px;
-        line-height: 15,6px;
-    }
-
-   }
-   &__battles {
-       padding-top: 110px;
-       display: flex;
-       gap: 80px;
-
-       @media screen and (max-width: 768px) {
-        padding-top: 140px;
-        gap: 28px;
-    }
+  &__info {
+    margin: 0;
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 26px;
 
     @media screen and (max-width: 420px) {
-        padding-top: 60px;
-        gap: 0px;
+      max-width: 280px;
+      font-size: 12px;
+      line-height: 15,6px;
     }
 
-   }
-
-   &__container-images {
-      background-image: url(../../images/Group_339.png);
-      background-position: left;
-      background-repeat: no-repeat;
-   }
-   &__picture {
-       padding-top: 110px;
-       padding-bottom: 80px;
-       background-position: right;
+  }
+  &__battles {
+    padding-top: 110px;
+    display: flex;
+    gap: 80px;
 
     @media screen and (max-width: 768px) {
-        padding-top: 140px;
+      padding-top: 140px;
+      gap: 28px;
     }
 
     @media screen and (max-width: 420px) {
-        padding-top: 98px;
-        padding-bottom: 20px;
+      padding-top: 60px;
+      gap: 0px;
     }
 
-   }
+  }
+  &__image {
+    @media screen and (max-width: 420px) {
+      max-width: 280px;
+    }
+  }
+
+  &__container-images {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../images/Group_339.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 768px) {
+      background-image: url(../../images/Group_3399.png);
+    }
+
+    @media screen and (max-width: 420px) {
+      background-image: none;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  &__picture {
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background-position: right;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 140px;
+      padding-right: 50px;
+    }
+
+    @media screen and (max-width: 420px) {
+      padding-top: 98px;
+      padding-bottom: 20px;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
                         <a href="" class="header__link-info">Вступайте в клуб</a>
                         <img class="header__link-image" src="./images/vector.svg" alt="Стрелка">
                     <button class="header__link header__link_registration" type="button">
-                        <p class="header__link-text">Зарегистрироваться</p>
+                        Зарегистрироваться
                     </button>
                 </div>
             </div>
@@ -40,21 +40,34 @@
                     <h2 class="community__title">Наша команда</h2>
                     <p class="community__text">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
                     <div class="community__container-cards">
-                        <div class="community__player">
-                            <img class="community__player-image" src="./images/Rectangle 1.png" alt="Фото">
-                            <p class="community__player-name">Андрей</p>
-                            <p class="community__player-info">Шахматист, писатель.</p>
-                        </div>
-                        <div class="community__player">
-                            <img class="community__player-image" src="./images/Rectangle 2.png" alt="Фото">
-                            <p class="community__player-name">Никита</p>
-                            <p class="community__player-info">Шахматист, кулинар.</p>
-                        </div>
-                        <div class="community__player">
-                            <img class="community__player-image" src="./images/Rectangle 3.png" alt="Фото">
-                            <p class="community__player-name">Андрей</p>
-                            <p class="community__player-info">Шахматист, геймер.</p>
-                        </div>
+                        <ul>
+                            <li data-id="1" class="active">
+                                <div class="community__player">
+                                    <img class="community__player-image" src="./images/Rectangle_1.png" alt="Фото">
+                                    <p class="community__player-name">Андрей</p>
+                                    <p class="community__player-info">Шахматист, писатель.</p>
+                                </div>
+                            </li>
+                            <li data-id="2">
+                                <div class="community__player">
+                                    <img class="community__player-image" src="./images/Rectangle_2.png" alt="Фото">
+                                    <p class="community__player-name">Никита</p>
+                                    <p class="community__player-info">Шахматист, кулинар.</p>
+                                </div>
+                            </li>
+                            <li data-id="3">
+                                <div class="community__player">
+                                    <img class="community__player-image" src="./images/Rectangle_3.png" alt="Фото">
+                                    <p class="community__player-name">Андрей</p>
+                                    <p class="community__player-info">Шахматист, геймер.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="community__container-nav nav">
+                        <div data-id="1" class="nav__dot active"></div>
+                        <div data-id="2" class="nav__dot"></div>
+                        <div data-id="3" class="nav__dot"></div>
                     </div>
                 </div>
             </section>
@@ -71,22 +84,22 @@
                     <h4 class="events__title">Сражения</h4>
                     <p class="events__info">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
                     <div class="events__battles">
-                        <img class="events__image" src="./images/Rectangle_one.png"alt="Шахматная партия">
+                        <img class="events__image" src="./images/Rectangle_one.png" alt="Шахматная партия">
                         <img class="events__image" src="./images/Rectangle_two.png" alt="Шахматная партия">
                         <img class="events__image" src="./images/Rectangle_three.png" alt="Шахматная партия">
                     </div>
-                    <div class="events__container-images">
-                        <img class="events__picture" src="./images/Group_3.png" alt="Шахматная доска">
-                    </div>
+                </div>
+                <div class="events__container-images">
+                    <img class="events__picture" src="./images/Group_3.png" alt="Шахматная доска">
                 </div>
             </section>
         </main>
         <footer class="footer">
             <div class="content">
                 <div class="footer__container">
-                    <img class="footer__logo" src="./images/logo/logo.svg">
+                    <img class="footer__logo" src="./images/logo/logo.svg" alt="Пешка">
                     <button class="footer__link footer__link_registration" type="button">
-                        <p class="footer__link-text">Зарегистрироваться</p>
+                        Зарегистрироваться
                     </button>
                     <p class="footer__info">Шахматный клуб в Москве.</p>
                     <p class="footer__copyright">© Chees Club.</p>
@@ -94,4 +107,6 @@
             </div>
         </footer>
     </div>
+    <script src="index.js"></script>
+</body>
 </html>
