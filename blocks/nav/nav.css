@@ -1,0 +1,33 @@
+.nav {
+  padding: 30px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+@media screen and (min-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
+.nav__dot {
+  background-color: #fff;
+  opacity: 0.2;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.nav__dot.active {
+  opacity: 1;
+}
+.nav__dots {
+  background-color: #fff;
+  opacity: 0.2;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.nav__dots.active {
+  opacity: 1;
+}/*# sourceMappingURL=nav.css.map */

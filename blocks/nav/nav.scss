@@ -1,0 +1,36 @@
+.nav {
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    @media screen and (min-width: 600px) {
+        display: none;
+    }
+
+    &__dot {
+        background-color: #fff;
+        opacity: 0.2;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    &__dots {
+        background-color: #fff;
+        opacity: 0.2;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+}

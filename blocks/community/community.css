@@ -1,0 +1,117 @@
+.community {
+  background-color: #5036E6;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.community__title {
+  margin: 0;
+  padding-top: 80px;
+  font-size: 70px;
+  line-height: 63px;
+}
+@media screen and (max-width: 768px) {
+  .community__title {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .community__title {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 36px;
+  }
+}
+.community__text {
+  max-width: 500px;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 26px;
+}
+@media screen and (max-width: 600px) {
+  .community__text {
+    max-width: 280px;
+    font-size: 12px;
+    line-height: 15.6px;
+    padding-top: 20px;
+  }
+}
+.community__container-cards {
+  position: relative;
+  margin-top: 110px;
+}
+@media screen and (max-width: 600px) {
+  .community__container-cards {
+    margin-top: 60px;
+    text-align: center;
+    height: 400px;
+  }
+}
+.community__container-cards ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+@media screen and (max-width: 600px) {
+  .community__container-cards ul {
+    position: absolute;
+    width: 960px;
+    left: 50%;
+    margin-left: -480px;
+    top: 0;
+    bottom: 0;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .community__container-cards ul li {
+    position: absolute;
+    height: 100%;
+    transform: translateX(-10000px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .community__container-cards ul li.active {
+    position: absolute;
+    transform: translateX(100%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .community__container-cards {
+    margin-top: 140px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .community__container-cards {
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+.community__player-name {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 28, 6px;
+}
+@media screen and (max-width: 600px) {
+  .community__player-name {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 23, 4px;
+  }
+}
+.community__player-info {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 26px;
+}
+@media screen and (max-width: 600px) {
+  .community__player-info {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 15, 6px;
+  }
+}/*# sourceMappingURL=community.css.map */
